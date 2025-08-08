@@ -1,4 +1,4 @@
-import { Text, View,  StyleSheet } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function Index() {
   return (
@@ -16,6 +16,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   text: {
+    color: '#fff',
+  },
+  button: {
+    fontSize: 20,
+    textDecorationLine: 'underline',
     color: '#fff',
   },
 });
